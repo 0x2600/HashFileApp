@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HashFile"
         mc:Ignorable="d"
-        Title="HashFileApp" Height="450" Width="800">
+        Title="HashFileApp  Drag And Drop File To This Window" Height="450" Width="850" DragEnter="Window_DragEnter" AllowDrop="True">
     <StackPanel>
         <WrapPanel>
             <Label Content="Select Hash Algorithm:" Name="LblSelectedFile"></Label>
@@ -14,6 +14,10 @@
                 <ComboBoxItem Content="SHA1"></ComboBoxItem>
                 <ComboBoxItem Content="SHA256"></ComboBoxItem>
             </ComboBox>
+        </WrapPanel>
+        <WrapPanel>
+            <Label Content="Selected File:" Width="100"></Label>
+            <TextBlock Name="TbSelectedFile" Width="700"></TextBlock>
         </WrapPanel>
         <WrapPanel>
             <Label Content="Expected:" Width="100"></Label>
