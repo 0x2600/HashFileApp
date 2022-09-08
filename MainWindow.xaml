@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HashFile"
         mc:Ignorable="d"
-        Title="HashFileApp  Drag And Drop File To This Window" Height="450" Width="850" DragEnter="Window_DragEnter" AllowDrop="True">
+        Title="HashFileAppV1.0  Drag And Drop File To This Window" Height="450" Width="850" DragEnter="Window_DragEnter" AllowDrop="True">
     <StackPanel>
         <WrapPanel>
             <Label Content="Select Hash Algorithm:" Name="LblSelectedFile"></Label>
